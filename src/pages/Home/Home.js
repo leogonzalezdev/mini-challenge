@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Spacer } from '@nextui-org/react';
 import TableUsers from '../../components/TableUsers/TableUsers';
 import { useUsersContext } from '../../provider/UserProvider';

@@ -2,6 +2,7 @@ import React from 'react';
 import { Table } from '@nextui-org/react';
 
 const TableUsers = ({ users, columns }) => {
+
   return (
     <Table
       bordered
@@ -36,13 +37,13 @@ const TableUsers = ({ users, columns }) => {
           })
         }
       </Table.Body>
-      <Table.Pagination
+      {/* <Table.Pagination
         shadow
         noMargin
         align="center"
         rowsPerPage={3}
         onPageChange={(page) => console.log({ page })}
-      />
+      /> */}
     </Table>
   )
 }

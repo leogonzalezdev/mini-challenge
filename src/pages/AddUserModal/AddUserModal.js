@@ -24,8 +24,9 @@ const AddUserModal = ({ visible, setVisible }) => {
   };
 
   const addUser = () => {
-    setUsers([ newUser,...users])
-    alert('Añadido correctamente')
+    setUsers([ newUser,...users]);
+    alert('Añadido correctamente');
+    closeHandler();
   };
 
   return (
